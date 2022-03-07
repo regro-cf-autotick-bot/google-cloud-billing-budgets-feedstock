@@ -20,8 +20,9 @@ requirements:
     - python >=3.6
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.28.0,<3.0dev
-    - proto-plus >=1.10.0
+    - google-api-core-grpc >=1.31.5,<3.0dev
+    - proto-plus >=1.15.0
+    - libcst >=0.2.5
 
 test:
   requires:
