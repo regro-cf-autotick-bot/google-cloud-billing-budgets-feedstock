@@ -1,5 +1,5 @@
 {% set name = "google-cloud-billing-budgets" %}
-{% set version = "1.6.1" %}
+{% set version = "1.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eca5b02e34165b6db0454a02546cfe1b02bbeeede63c89ccff0e87f189890892
+  sha256: a3f6a8093d0d490417e1d7a7ad31a25e0a7e63fee8179b6dcff7b4613c7c3944
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -20,8 +20,9 @@ requirements:
     - python >=3.6
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.31.5,<3.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0
-    - proto-plus >=1.15.0
+    - google-api-core-grpc >=1.31.5,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0
+    - proto-plus >=1.15.0,<2.0.0dev
+    - protobuf >=3.19.0,<4.0.0dev
     - libcst >=0.2.5
 
 test:
