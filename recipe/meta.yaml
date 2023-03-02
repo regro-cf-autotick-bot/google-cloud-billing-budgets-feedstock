@@ -1,5 +1,5 @@
 {% set name = "google-cloud-billing-budgets" %}
-{% set version = "1.9.1" %}
+{% set version = "1.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0f89d2cf67b0dd7170cb2a9fd27c77f8932d5ba45a9b82e2e812f4b879a31acd
+  sha256: 12eb8206358bf22051da7cb3e8c5f5cf13d7da5695113de5c2afdc9f0faa8f6f
 
 build:
   noarch: python
@@ -24,7 +24,6 @@ requirements:
     # use Python 3.11 version constraint to keep package noarch
     - proto-plus >=1.22.2,<2.0.0dev
     - protobuf >=3.19.5,<5.0.0dev,!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
-    - libcst >=0.2.5
 
 test:
   requires:
