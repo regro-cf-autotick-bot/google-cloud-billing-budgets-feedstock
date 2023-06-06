@@ -39,10 +39,10 @@ test:
     - python -m pip check
 
 about:
-  home: https://github.com/googleapis/python-billingbudgets
+  home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-billing-budgets
   summary: Python Client for Google Cloud Billing Budget
   doc_url: https://googleapis.dev/python/billingbudgets/latest/index.html
-  dev_url: https://github.com/googleapis/python-billingbudgets
+  dev_url: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-billing-budgets
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
