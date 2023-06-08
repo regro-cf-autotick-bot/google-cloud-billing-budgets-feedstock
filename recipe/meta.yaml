@@ -1,5 +1,5 @@
 {% set name = "google-cloud-billing-budgets" %}
-{% set version = "1.10.0" %}
+{% set version = "1.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 12eb8206358bf22051da7cb3e8c5f5cf13d7da5695113de5c2afdc9f0faa8f6f
+  sha256: 898c8f666a7814afd9a83cb84f36e41181ace21cedc060d5944e5214fae0e1d5
 
 build:
   noarch: python
@@ -39,10 +39,10 @@ test:
     - python -m pip check
 
 about:
-  home: https://github.com/googleapis/python-billingbudgets
+  home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-billing-budgets
   summary: Python Client for Google Cloud Billing Budget
   doc_url: https://googleapis.dev/python/billingbudgets/latest/index.html
-  dev_url: https://github.com/googleapis/python-billingbudgets
+  dev_url: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-billing-budgets
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
