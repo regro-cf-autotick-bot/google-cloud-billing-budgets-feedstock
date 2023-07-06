@@ -3,13 +3,13 @@ About google-cloud-billing-budgets-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-billing-budgets-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/python-billingbudgets
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-billing-budgets
 
 Package license: Apache-2.0
 
 Summary: Python Client for Google Cloud Billing Budget
 
-Development: https://github.com/googleapis/python-billingbudgets
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-billing-budgets
 
 Documentation: https://googleapis.dev/python/billingbudgets/latest/index.html
 
