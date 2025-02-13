@@ -1,5 +1,5 @@
 {% set name = "google-cloud-billing-budgets" %}
-{% set version = "1.16.0" %}
+{% set version = "1.17.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 8697b02dca0f9327fe4450ff50c8d5aab6ccb2b64b2bb02cf0d8eea68fed68a7
+  sha256: 85374a2319a86c40240666e8d827eb0e845c5ff9c4dec4145481d34431a367fa
 
 build:
   noarch: python
